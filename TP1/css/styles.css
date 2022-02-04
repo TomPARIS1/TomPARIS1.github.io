@@ -1,0 +1,118 @@
+html {
+	font-family: Corbel;
+}
+
+body {
+	width:100%;
+	max-width:900px;
+	margin:auto;
+	background-image:url("../images/fond.jpg");
+}
+
+footer {
+  padding:40px 0;
+  background-color:black;
+  color:white;
+}
+
+footer > ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+}
+
+footer li {
+  padding:0 10px;
+  display:inline;
+}
+
+footer > ul a {
+  text-decoration:none;
+  color:white;
+}
+
+footer > p {
+	text-align:center;
+}
+
+main {
+	background-color: white;
+	width:100%;
+}
+
+header {
+	display:flex;
+	align-items:center;
+}
+
+nav {
+	padding: 10px 50px;
+	background-color:black;
+	width:100%;
+}
+
+nav > div {
+	text-align:center;
+}
+
+nav a {
+	text-decoration:none;
+	font-size:20px;
+	padding: 10px 30px;
+	color:white;
+}
+
+nav a:hover {
+	color:yellow;
+}
+
+footer a:hover {
+	color:yellow;
+}
+
+nav > label {
+    font-size: 30px;
+    display: none;
+	color:white;
+}
+
+#check {
+    display: none;
+}
+
+
+
+@media (max-width: 768px) {
+	body {
+		width:100%;
+		font-size:5vw;
+		background-image:none;
+	}
+	
+	#presentation_banner, #get_prenium_img, #formule_patron_img, #ingame_img, #contact_logo {
+		display:none;
+	}
+	
+    nav > label {
+		display: inline;
+        cursor: pointer;
+    }
+	
+    nav > div {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+	
+    nav > div > a {
+        display: block;
+        border-bottom: 1px solid white;
+    }
+	
+    #check:checked + div {
+        display: block;
+    }
+    
+    
+}
