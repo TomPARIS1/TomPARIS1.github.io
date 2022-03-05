@@ -7,7 +7,7 @@
 }
 
 header {
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 }
 
@@ -29,7 +29,10 @@ nav {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    position: fixed;
+    background-color: #FFFFFF;
     top: 0;
+    left: 0;
     box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -110,7 +113,7 @@ nav ul li a:hover {
 .about {
     width: 80%;
     margin: auto;
-    padding: 100px 0;
+    padding: 20px 0;
     color: #200e32;
 }
 
@@ -174,7 +177,7 @@ nav ul li a:hover {
     font-weight: 500;
 }
 
-.droite .bar {
+.droite .barre {
     background-color: lightgrey;
     height: 5px;
     border-radius: 20px;
@@ -182,7 +185,7 @@ nav ul li a:hover {
     position: relative;
 }
 
-.droite .bar::before {
+.droite .barre::before {
     content: '';
     position: absolute;
     height: 100%;
