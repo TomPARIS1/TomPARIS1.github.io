@@ -2,40 +2,83 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <title>Portfolio - Tom PARIS</title>
         <link rel="icon" type="image/png" href="images/folder.png">
     </head>
 
     <body>
-        <main>
+        <header id="accueil">
             <nav>
-                <a href="#" class="logo">
+                <a href="#accueil">
                     <img src="images/folder.png" alt="Logo">
                 </a>
 
-                <ul class="menu">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Compétences</a></li>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#competences">Compétences</a></li>
                     <li><a href="#">Projets</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
 
-            <div class="contenu">
-            
-            <div class="photo">
-                <img src="images/cartoon_pic.png" alt="Photo">
+            <div id="particles-js">
+                <div class="presentation">
+                    <h1>Bonjour, je m'appelle Tom</h1>
+                    <p>Étudiant en BUT informatique, ce site me servira à stocker <br> mes différents projets, qu'ils soient scolaires ou personnels.</p>
+                    <a href="#">Voir mon Portfolio</a>
+                </div>
             </div>
+        </header>
 
-            <div class="presentation">
-                <h1>Bonjour, je suis Tom</h1>
-                <p>Étudiant en BUT informatique, ce site me permettra de stocker différents projets qu'ils soient scolaires ou personnels.</p>
+        <main>
+            <section class="about" id="competences">
+                <h1>Compétences</h1>
+                <div class="content">
+                    <div class="gauche">
+                        <h1>À propos</h1>
+                        <p>Étudiant en 1ère année de BUT, je suis passionné d'informatique. Mes études me permettent de toucher à de nombreux domaines, 
+                        je manipule donc différents langages, avec une préférence personnelle pour le HTML/CSS et le Java.</p>
+                        <a href="#">Mon CV</a>
+                    </div>
 
-                <a href="#">Voir mon Portfolio</a>
-            </div>
-            
-            </div>
+                    <div class="droite">
+                       <div class="line">
+                           <div class="info">
+                                <span>HTML</span>
+                                <span>70%</span>
+                            </div>
+                        </div>
+                        <div class="bar html"></div>
+                        <div class="line">
+                            <div class="info">
+                                 <span>CSS</span>
+                                 <span>60%</span>
+                             </div>
+                        </div>
+                        <div class="bar css"></div>
+                        <div class="line">
+                            <div class="info">
+                                 <span>SQL</span>
+                                 <span>50%</span>
+                             </div>
+                        </div>
+                        <div class="bar sql"></div>
+                        <div class="line">
+                            <div class="info">
+                                 <span>JAVA</span>
+                                 <span>55%</span>
+                             </div>
+                        </div>
+                        <div class="bar java"></div>
+                    </div>
+                </div>
+            </section>
         </main>
+
+        <script src="js/particles.js"></script>
+        <script src="js/particles.min.js"></script>
+        <script src="js/app.js"></script>
     </body>
 </html>
