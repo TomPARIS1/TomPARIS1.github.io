@@ -1,9 +1,11 @@
 /* Général */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
@@ -313,6 +315,7 @@ nav label {
     color: white;
     border-radius: 10px;
     margin-bottom: 20px;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
 }
 
 .time-content h2{
@@ -384,3 +387,36 @@ nav label {
     }
 }
 
+/* Projets */
+
+.projets {
+    width: 80%;
+    margin: auto;
+    padding: 0 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.projets h1 {
+    text-align: center;
+    font-size: 35px;
+    color:#30174a;
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.test {
+    height: 370px;
+    width: 350px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    background-color: #30174a;
+    text-align: center;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.5);
+    margin: 20px 0;
+}
