@@ -70,11 +70,6 @@ nav label > img {
     height: 45px;
     margin-left: 10px;
     margin-top: 5px;
-    display: none;
-}
-
-nav label {
-    display: none;
 }
 
 #check {
@@ -138,10 +133,6 @@ nav label {
         display: block;
     }
 
-    nav label img {
-        display: inline;
-    }
-
     nav a img {
         display: none;
     }
@@ -151,6 +142,10 @@ nav label {
         display: none;
     }
 
+    nav label > img {
+        display: inline;
+    }
+    
     #check:checked ~ ul {
         display: block;
     }
