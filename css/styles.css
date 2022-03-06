@@ -111,7 +111,7 @@ nav label {
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
-    background-color: #200e32;
+    background-color: #27123d;
     border-radius: 20px;
     box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
 }
@@ -166,7 +166,7 @@ nav label {
     width: 80%;
     margin: auto;
     padding: 20px 0;
-    color: #200e32;
+    color: #30174a;
 }
 
 .about h1 {
@@ -203,7 +203,7 @@ nav label {
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
-    background-color: #200e32;
+    background-color: #30174a;
     border-radius: 20px;
     box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
 }
@@ -242,7 +242,7 @@ nav label {
     content: '';
     position: absolute;
     height: 100%;
-    background-color: #200e32;
+    background-color: #29143f;
 }
 
 .droite .html::before {
@@ -336,7 +336,7 @@ nav label {
         position: absolute;
         height: 90%;
         width: 2px;
-        background-color: #200e32;
+        background-color: #30174a;
         left: 50%;
         transform: translate(-50%);
     }
@@ -364,7 +364,7 @@ nav label {
         position: absolute;
         height: 20px;
         width: 20px;
-        background-color: #200e32;
+        background-color: #30174a;
         border-radius: 20px;
         top: 0;
     }
