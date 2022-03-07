@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="with=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
     <body>
         <header id="accueil">
             <nav>
-                <label for="check"><img src="images/hamburger.png"></label>
+                <label for="check"><img src="images/hamburger.png" alt="menu"></label>
 				<input type="checkbox" id="check">
                 <a href="#accueil">
                     <img src="images/folder.png" alt="Logo">
@@ -20,7 +20,7 @@
                 <ul>
                     <li><a href="#accueil">Accueil</a></li>
                     <li><a href="#competences">Compétences</a></li>
-                    <li><a href="#">Projets</a></li>
+                    <li><a href="#proj">Projets</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -29,7 +29,7 @@
                 <div class="presentation">
                     <h1>Bonjour, je m'appelle Tom</h1>
                     <p>Étudiant en BUT informatique à Nevers, ce site me servira à stocker <br> mes différents projets, qu'ils soient scolaires ou personnels.</p>
-                    <a href="#">Voir mon Portfolio</a>
+                    <a href="#proj">Voir mon Portfolio</a>
                 </div>
             </div>
         </header>
@@ -39,7 +39,7 @@
                 <h1>Compétences</h1>
                 <div class="content">
                     <div class="gauche">
-                        <h1>À propos</h1>
+                        <h2>À propos</h2>
                         <p>Étudiant en 1ère année de BUT, je suis passionné d'informatique. Mes études me permettent de toucher à de nombreux domaines, 
                         je manipule donc différents langages, avec une préférence personnelle pour le HTML/CSS et le Java.</p>
                         <a href="#">Mon CV</a>
@@ -107,41 +107,32 @@
                 </div>
             </section>
 
-            <section class="projets">
+            <section class="projets" id="proj">
                 <h1>Projets</h1>
                 <div class="container">
-                    <div class="test">
-                        <p>Projet 1</p>
+                    <div class="box">
+                        <h2>Mini-jeux</h2>
+                        <img src="images/manette-de-jeu.png" alt="manette">
+                        <p>Programme codé en C++ comprenant différents mini-jeux simples ainsi qu'une interface en ligne de commande.</p>
                         <a href="#">Code</a>
                     </div>
 
-                    <div class="test">
-                        <p>Projet 2</p>
+                    <div class="box">
+                        <h2>MyDLC</h2>
+                        <img src="images/internet.png" alt="website">
+                        <p>Site web réalisé pour une entreprise fictive de vente d'un jeu vidéo et de contenu additionnel. Codé en HTML et CSS.</p>
                         <a href="#">Code</a>
                     </div>
 
-                    <div class="test">
-                        <p>Projet 3</p>
+                    <div class="box">
+                        <h2>Site Portfolio</h2>
+                        <img src="images/folder2.png" alt="folder">
+                        <p>Site web personnel réalisé afin de stocker mes projets et d'avoir une vue d'ensemble sur mon travail. Codé en HTML et CSS.</p>
                         <a href="#">Code</a>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="test">
-                        <p>Projet 4</p>
-                        <a href="#">Code</a>
-                    </div>
-
-                    <div class="test">
-                        <p>Projet 5</p>
-                        <a href="#">Code</a>
-                    </div>
-
-                    <div class="test">
-                        <p>Projet 6</p>
-                        <a href="#">Code</a>
-                    </div>
-                </div>
-            </section> 
+                <p>Pour en savoir plus et voir mes autres projets : <a href="https://iutdijon.u-bourgogne.fr/mahara/module/framework/matrix.php?id=1599">Mahara <img src="images/url.png" alt="url"></a></p>
+            </section>
         </main>
 
         <script src="js/particles.js"></script>
