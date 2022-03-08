@@ -492,7 +492,8 @@ nav label {
 
     .container {
         display: block;
-	margin: 0;
+        text-align: center;
+        align-items: center;
     }
 
     .box {
